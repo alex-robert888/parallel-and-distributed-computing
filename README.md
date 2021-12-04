@@ -7,7 +7,7 @@ Several projects implementing various parallelism &amp; distribution concepts.
 
 ## Project 1 - Non-Cooperative Multi-Threading
 
-Project Statement :
+Project Statement:
 
 _At a bank, we have to keep track of the balance of some accounts. Also, each account has an associated log (the list of records of operations performed on that account). Each operation record shall have a unique serial number, that is incremented for each operation performed in the bank._
 
@@ -17,6 +17,6 @@ _From time to time, as well as at the end of the program, a consistency check sh
 
 ### TODO List
 
-- [ ] Run concurrent operations
-- [ ] Perform conistency check at the end
-- [ ] Perform consitency periodically
+- [ ] Run concurrent operations 🏃‍♀️ 🏃‍♂️ 🏃 
+- [ ] Perform conistency check at the end ☑️
+- [ ] Perform consitency periodically ⏱
