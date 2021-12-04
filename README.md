@@ -18,5 +18,5 @@ _From time to time, as well as at the end of the program, a consistency check sh
 ### TODO List
 
 - [ ] Run concurrent operations 🏃‍♀️ 🏃‍♂️ 🏃 
-- [ ] Perform conistency check at the end ☑️
+- [ ] Perform conistency check at the end 🔚
 - [ ] Perform consitency periodically ⏱
