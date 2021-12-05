@@ -4,7 +4,6 @@
 
 Several projects implementing various parallelism &amp; distribution concepts. 
 
-
 ## Project 1 - Non-Cooperative Multi-Threading
 
 ### Project Statement
@@ -20,3 +19,11 @@ _From time to time, as well as at the end of the program, a consistency check sh
 - [ ] Run concurrent operations 🏃‍♀️ 🏃‍♂️ 🏃 
 - [ ] Perform conistency check at the end 🔚
 - [ ] Perform consitency periodically ⏱
+
+### Code Documentation
+
+I need to implement a multi-threading environment in which each thread executes a specified number of random transactions between random accounts.
+
+`Worker` is the model which handles everything related to a thread: spawning the tread, performing transactions, performing consistency checks, joining the thread.
+
+Each `Worker` is passed a shared reference to the vector of `Accounts` the transactions are going to be performed on. For shared pointers, we can use Rc (_Refcounted_ or _Reference Counted Smart Pointers_). However, Rust compiler complains about that, since `Rc` is not in fact thread-safe. However, the solution for that is to use `Arc` instead (_Atomically Reference Counted_ smart pointers). 
